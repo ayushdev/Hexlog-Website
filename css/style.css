@@ -202,7 +202,7 @@
     left: 0vw;
   }
 }
-@media (width: 1440px) {
+@media (min-width: 1400px) and (max-width: 1500px) {
   .module1, .module2, .module3, .module4{
     height: 40vh;
   }
@@ -316,7 +316,7 @@
     font-size: 18vh;
   }
 }
-@media (width: 1440px){
+@media (min-width: 1400px) and (max-width: 1500px){
   .one, .three, .two, .four{
     height: 20vh;
   }
@@ -434,7 +434,7 @@
     color: white;
   }
 }
-@media (width: 1440px){
+@media (min-width: 1400px) and (max-width: 1500px){
   .footer{
     height: 15vw;
   }
