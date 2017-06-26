@@ -202,35 +202,7 @@
     left: 0vw;
   }
 }
-/*@media (min-width: 1400px) and (max-width: 1500px) {
-  .module1, .module2, .module3, .module4{
-    height: 40vh;
-  }
-  .content h1{
-    top: 2vh;
-  }
-  .hrhome{
-    margin-top: 7vh;
-  }
-  .content ul{
-    position: absolute;
-    top: 9vh;
-    left: 0vw;
-  }
-}*/
-/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-  .module1, .module2, .module3, .module4{
-    height: 10vh;
-  }
-}
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-  .module1, .module2, .module3, .module4{
-    height: 10vh;
-  }
-}
-@media (min-width: @screen-lg-min) {
 
-}*/
 /*carousel styling ends*/
 
 /*content styling starts*/
@@ -316,42 +288,6 @@
     font-size: 18vh;
   }
 }
-/*@media (min-width: 1400px) and (max-width: 1500px){
-  .one, .three, .two, .four{
-    height: 20vh;
-  }
-  .para1, .para3{
-    position: absolute;
-    left: -10vw;
-    width: 45vw;
-  }
-  .para1 h1, .para2 h1, .para3 h1, .para4 h1{
-    font-size: 4vw;
-  }
-  .para1 p, .para2 p, .para3 p, .para4 p{
-    font-size: 2.5vw;
-  }
-  .para2, .para4{
-    position: absolute;
-    left: 1vw;
-    width: 45vw;
-  }
-  .img1 i, .img3 i{
-    position: absolute;
-    margin-left: 50vw;
-    font-size: 18vh;
-  }
-  .img2 i{
-    position: absolute;
-    margin-left: 5vw;
-    font-size: 18vh;
-  }
-  .img4 i{
-    position: absolute;
-    margin-left: 7vw;
-    font-size: 18vh;
-  }
-}*/
 /*content styling ends*/
 
 /*footer design starts*/
@@ -434,36 +370,4 @@
     color: white;
   }
 }
-/*@media (min-width: 1400px) and (max-width: 1500px){
-  .footer{
-    height: 15vw;
-  }
-  #footer-img{
-    position: absolute;
-    display: inline-block;
-    margin-left: 2vw;
-    margin-top: 2vw;
-    width: 20vw;
-    height: 11vw;
-  }
-  .logos{
-    position: absolute;
-    display: inline-block;
-    margin-top: 0.7vh;
-    margin-left: 30vw;
-    margin-bottom: 0px;
-    width: 34vw;
-    font-size: 8vw;
-  }
-  .contact{
-    position: absolute;
-    display: inline-block;
-    align: right;
-    font-weight: bolder;
-    margin-top: 0.5vh;
-    margin-left: 70vw;
-    font-size: 1.4vw;
-    color: white;
-  }
-}*/
 /*footer design ends*/
