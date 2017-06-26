@@ -201,7 +201,22 @@
     top: 11vh;
     left: 0vw;
   }
-
+}
+@media (width: 1440px) {
+  .module1, .module2, .module3, .module4{
+    height: 40vh;
+  }
+  .content h1{
+    top: 2vh;
+  }
+  .hrhome{
+    margin-top: 7vh;
+  }
+  .content ul{
+    position: absolute;
+    top: 9vh;
+    left: 0vw;
+  }
 }
 /*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
   .module1, .module2, .module3, .module4{
@@ -300,82 +315,44 @@
     margin-left: 7vw;
     font-size: 18vh;
   }
-
+}
+@media (width: 1440px){
+  .one, .three, .two, .four{
+    height: 20vh;
+  }
+  .para1, .para3{
+    position: absolute;
+    left: -10vw;
+    width: 45vw;
+  }
+  .para1 h1, .para2 h1, .para3 h1, .para4 h1{
+    font-size: 4vw;
+  }
+  .para1 p, .para2 p, .para3 p, .para4 p{
+    font-size: 2.5vw;
+  }
+  .para2, .para4{
+    position: absolute;
+    left: 1vw;
+    width: 45vw;
+  }
+  .img1 i, .img3 i{
+    position: absolute;
+    margin-left: 50vw;
+    font-size: 18vh;
+  }
+  .img2 i{
+    position: absolute;
+    margin-left: 5vw;
+    font-size: 18vh;
+  }
+  .img4 i{
+    position: absolute;
+    margin-left: 7vw;
+    font-size: 18vh;
+  }
 }
 /*content styling ends*/
-
-/*partners styling starts*/
-.partners h1{
-  align-self: center;
-  font-family: 'Marcellus SC', serif;
-}
-.brand-img{
-  height: 18vh;
-  margin: 0.2%;
-  width: 18vw;
-  margin-left: 12%;
-}
-.brand-img1{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/a1travel.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.brand-img2{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/intec.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.brand-img3{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/innovil-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.brand-img4{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/microsoft-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.brand-img5{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/shalimar.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.brand-img6{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),
-    url(file:///Users/ayush3107/Desktop/ExtDesktop/Hexlog%20Website/img/urban-home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*partners styling ends*/
 
 /*footer design starts*/
 .footer{
@@ -426,6 +403,38 @@
   color: rgb(195, 255, 0);
 }
 @media (min-width: 410px) and (max-width: 768px){
+  .footer{
+    height: 15vw;
+  }
+  #footer-img{
+    position: absolute;
+    display: inline-block;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    width: 20vw;
+    height: 11vw;
+  }
+  .logos{
+    position: absolute;
+    display: inline-block;
+    margin-top: 0.7vh;
+    margin-left: 30vw;
+    margin-bottom: 0px;
+    width: 34vw;
+    font-size: 8vw;
+  }
+  .contact{
+    position: absolute;
+    display: inline-block;
+    align: right;
+    font-weight: bolder;
+    margin-top: 0.5vh;
+    margin-left: 70vw;
+    font-size: 1.4vw;
+    color: white;
+  }
+}
+@media (width: 1440px){
   .footer{
     height: 15vw;
   }
